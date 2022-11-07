@@ -7,24 +7,26 @@ export default function Home() {
 		<div className={styles.container}>
 			<main className={styles.main}>
 				<h1 className={styles.title}> Welcome to my Portfolio </h1>
-				<div className="">
+				<section className={styles.section}>
 					<p>
 						Hello my name is{' '}
 						<span className={styles.span}>Levar Bobb-Semple</span> and I am a
 						Software engineer
 					</p>
-				</div>
-				<div className="">
+				</section>
+				<section className={styles.section}>
 					<h2> What&apos;s in my stack </h2>
-					<span> Postgres </span>
-					<span> Express </span>
-					<span> React </span>
-					<span> Node </span>
-				</div>
-				<div>
-					<h2> My Projects </h2>
 					<div>
-						<div>
+						<span> Postgres | </span>
+						<span> Express |</span>
+						<span> React |</span>
+						<span> Node </span>
+					</div>
+				</section>
+				<section className={styles.section}>
+					<h2> My Projects </h2>
+					<div className={styles.projects}>
+						<div className={styles.project}>
 							<a href="https://ecommercelolcards1.herokuapp.com/">
 								<h3> LoLEcommerce &rarr;</h3>
 							</a>
@@ -32,14 +34,14 @@ export default function Home() {
 								GitHub
 							</a>
 						</div>
-						<div>
+						<div className={styles.project}>
 							<a href="https://rowlf.herokuapp.com/">
 								<h3> Hello Kitchen &rarr;</h3>
 							</a>
 							<a href="https://github.com/Team-Rowlf/Rowlf">GitHub</a>
 						</div>
 					</div>
-				</div>
+				</section>
 			</main>
 		</div>
 	);
