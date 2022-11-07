@@ -1,3 +1,8 @@
-export default function Contact({ children }: { children: React.ReactNode }) {
-	return <div> contact </div>;
+export default function MyContact() {
+	return (
+		<div>
+			{' '}
+			<h1>Contact me</h1>
+		</div>
+	);
 }

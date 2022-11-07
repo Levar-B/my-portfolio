@@ -1,6 +1,5 @@
 import './globals.css';
 import Link from 'next/link';
-import Head from 'next/head';
 export default function RootLayout({
 	children,
 }: {
@@ -8,11 +7,11 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="en">
-			<Head>
+			<head>
 				<title> Levar </title>
 				<meta name="description" content="Levar's portfolio using Nextjs" />
 				<link rel="icon" href="/favicon.ico" />
-			</Head>
+			</head>
 			<body>
 				<nav>
 					<div className="menu">

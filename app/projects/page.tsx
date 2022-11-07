@@ -1,3 +1,8 @@
-export default function Projects({ children }: { children: React.ReactNode }) {
-	return <div> projects </div>;
+export default function projects() {
+	return (
+		<div>
+			{' '}
+			<h1>projects</h1>
+		</div>
+	);
 }

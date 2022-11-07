@@ -2,14 +2,13 @@ import styles from './page.module.css';
 
 export default function Home() {
 	return (
-		<div className={styles.container}>
+		<div>
 			<main className={styles.main}>
-				<h1 className={styles.title}> Welcome to my Portfolio </h1>
+				<h1> Welcome to my Portfolio </h1>
 				<section className={styles.section}>
 					<p>
-						Hello my name is{' '}
-						<span className={styles.span}>Levar Bobb-Semple</span> and I am a
-						Software engineer
+						Hello my name is
+						<span> Levar Bobb-Semple </span> and I am a Software engineer
 					</p>
 				</section>
 				<section className={styles.section}>
