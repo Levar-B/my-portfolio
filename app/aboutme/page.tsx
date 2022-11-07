@@ -1,3 +1,8 @@
 export default function AboutMe() {
-	return <div> aboutme </div>;
+	return (
+		<div>
+			{' '}
+			<h1>About Levar</h1>{' '}
+		</div>
+	);
 }
